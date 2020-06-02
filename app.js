@@ -56,6 +56,8 @@ function colorizeSliders(color, hue, brightness, saturation) {
   brightness.style.backgroundImage = `linear-gradient(to right, ${scaleBrightness(
     0
   )}, ${scaleBrightness(0.5)}, ${scaleBrightness(1)})`;
+
+  hue.style.backgroundImage = `linear-gradient(to right, rgb(204, 75, 75), rgb(204, 204, 75), rgb(75, 204, 75), rgb(75, 204, 204), rgb(75, 75, 204), rgb(204, 75, 204), rgb(204, 75, 75))`;
 }
 
 randomColors();
