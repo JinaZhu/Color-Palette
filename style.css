@@ -39,15 +39,15 @@ svg {
   flex-direction: column;
   position: absolute;
   bottom: 0%;
-  background: rgb(159, 135, 135);
-  /* opacity: 0; */
+  background: white;
+  opacity: 0;
   padding: 1rem;
   width: 80%;
   border-top-right-radius: 1rem;
-  /* pointer-events: none; */
+  pointer-events: none;
   border-top-left-radius: 1rem;
   /* We are adding an adjustemnt class */
-  /* transform: translateY(100px); */
+  transform: translateY(100px);
   transition: all 0.5s ease-in-out;
 }
 
@@ -137,6 +137,7 @@ input[type="range"] {
   height: 100%;
   display: flex;
   justify-content: center;
+  transition: all 0.5s ease-in-out;
   align-items: center;
   opacity: 0;
   pointer-events: none;
