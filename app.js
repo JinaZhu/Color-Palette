@@ -8,9 +8,7 @@ const adjustButton = document.querySelectorAll(".adjust");
 const lockButton = document.querySelectorAll(".lock");
 const closeAdjustments = document.querySelectorAll(".close-adjustment");
 const sliderContainer = document.querySelectorAll(".sliders");
-const submitBtn = document.querySelector(".submit-save");
 let initalColors;
-
 // local storage
 let savedPalettes = [];
 
@@ -52,7 +50,6 @@ lockButton.forEach((button, index) => {
   });
 });
 
-submitBtn.addEventListener("click", savePalette);
 // functions
 
 // color generator
@@ -221,7 +218,7 @@ const closeLibraryBtn = document.querySelector(".close-library");
 // event listeners
 saveBtn.addEventListener("click", openPalette);
 closeSave.addEventListener("click", closePalette);
-libraryBtn.addEventListener("click", savePalette);
+submitSave.addEventListener("click", savePalette);
 libraryBtn.addEventListener("click", openLibrary);
 closeLibraryBtn.addEventListener("click", closeLibrary);
 
