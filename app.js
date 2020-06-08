@@ -289,7 +289,6 @@ function savePalette(e) {
     });
     resetInputs();
   });
-
   // append to lib
   palette.appendChild(title);
   palette.appendChild(preview);
