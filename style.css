@@ -19,9 +19,10 @@ svg {
   min-height: 80vh;
   display: flex;
   color: rgb(212, 212, 212);
+  z-index: -1;
 }
 .color {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -29,6 +30,8 @@ svg {
   justify-content: space-evenly;
   position: relative;
   overflow: hidden;
+  border-left: 1rem solid white;
+  border-right: 1rem solid white;
 }
 .color h2 {
   font-size: 2rem;
@@ -82,15 +85,9 @@ svg {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 20vh;
+  height: 30vh;
 }
 
-.panel {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 20vh;
-}
 .panel button {
   font-size: 1.2rem;
   margin: 1rem;
@@ -145,6 +142,7 @@ input[type="range"] {
   align-items: center;
   opacity: 0;
   pointer-events: none;
+  z-index: 5;
 }
 
 .copy-popup,
@@ -160,6 +158,7 @@ input[type="range"] {
   transform: translateY(-2rem);
   min-width: 30%;
   min-height: 50vh;
+  /* position: absolute; */
 }
 .copy-popup h4,
 .save-popup h4,
@@ -172,6 +171,7 @@ input[type="range"] {
 .library-container.active {
   opacity: 1;
   pointer-events: all;
+  z-index: 5;
 }
 
 .copy-popup.active,
