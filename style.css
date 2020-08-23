@@ -30,8 +30,6 @@ svg {
   justify-content: space-evenly;
   position: relative;
   overflow: hidden;
-  border-left: 1rem solid white;
-  border-right: 1rem solid white;
 }
 .color h2 {
   font-size: 2rem;
