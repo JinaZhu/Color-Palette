@@ -90,12 +90,19 @@ svg {
   font-size: 1.2rem;
   margin: 1rem;
   padding: 1rem 2rem;
-  background: rgb(31, 33, 63);
+  background: white;
   border: none;
-  color: white;
+  color: black;
   cursor: pointer;
-  border-radius: 1rem;
+  border: 1px solid black;
+  outline: none;
 }
+
+.panel button:hover {
+  background: black;
+  color: white;
+}
+
 .panel p {
   font-size: 1.2rem;
 }
