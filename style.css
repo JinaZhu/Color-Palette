@@ -6,6 +6,7 @@
 body {
   font-family: "Amatic", sans-serif;
   color: rgb(51, 51, 51);
+  min-height: 100vh;
 }
 button {
   font-family: "Amatic", sans-serif;
@@ -241,4 +242,8 @@ input[type="range"] {
   font-size: 1.2rem;
   background: rgb(41, 41, 41);
   color: white;
+}
+
+.readme-image {
+  display: flex;
 }
