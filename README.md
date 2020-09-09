@@ -9,6 +9,14 @@ Are you like me, obsessed with finding the right colors for everything? From web
 - CSS
 - Library: Chroma.js
 
+### Installation
+
+Clone Array of Colors repository
+
+```
+$ git clone https://github.com/JinaZhu/Color-Palette.git
+```
+
 ### Features
 
 - Generate an array of five colors to create the perfect palette.
@@ -18,7 +26,7 @@ Are you like me, obsessed with finding the right colors for everything? From web
 - Keep track of all the palettes you saved.
 
 <div class="readme-image">
-<img src="/homepage.png" width="250"/>
-<img src="/save.png" width="250"/>
-<img src="/palette.png" width="250"/>
+<img src="/homepage.png" width="250" height="250"/>
+<img src="/save.png" width="250" height="250"/>
+<img src="/palette.png" width="250" height="250"/>
 </div>
